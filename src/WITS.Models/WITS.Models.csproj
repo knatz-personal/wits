@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- See Directory.Build.props for common properties. -->
+  </PropertyGroup>
+
+</Project>

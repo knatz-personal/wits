@@ -1,0 +1,31 @@
+@BaseUrl = https://localhost:7356/api/v1
+@BearerToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ik5BVEhBTksiLCJlbWFpbCI6Im5hdGhhbi5raHVwZUBhZ2lsaXMuY29tLm10Iiwicm9sZSI6IjEiLCJPcmdhbml6YXRpb25JZCI6IjEiLCJuYmYiOjE3NDUwODY2NzAsImV4cCI6MTc0NTA5MDI3MCwiaWF0IjoxNzQ1MDg2NjcwLCJpc3MiOiJTSVRTLkFwaSIsImF1ZCI6IlNJVFMuQ2xpZW50In0.pvXhQGXthOXWldI1nGtLr9GKf8lSR7xqwLXGpIxYwnQ
+
+
+POST {{BaseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "username": "NATHANK",
+  "password": "T!mbach2"
+}
+
+###
+
+POST {{BaseUrl}}/auth/register
+
+###
+
+GET {{BaseUrl}}/ticket
+Authorization: Bearer {{BearerToken}}
+
+###
+
+POST {{BaseUrl}}/ticket/query
+
+###
+
+@id=0
+GET {{BaseUrl}}/ticket/{id:long}?id={{id}}
+
+###

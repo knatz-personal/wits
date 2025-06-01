@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/docs/" />
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/WITS.Api/WITS.Api.csproj" />
+    <Project Path="src/WITS.Common/WITS.Common.csproj" />
+    <Project Path="src/WITS.Data/WITS.Data.csproj" />
+    <Project Path="src/WITS.Models/WITS.Models.csproj" />
+    <Project Path="src/WITS.Services/WITS.Services.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tools/">
+    <Project Path="tools\WITS.Migrator\WITS.Migrator.csproj" />
+    <Project Path="tools\WITS.Seeder\WITS.Seeder.csproj" />
+  </Folder>
+</Solution>
